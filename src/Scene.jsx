@@ -4,7 +4,7 @@ import React, { useRef } from 'react'
 import * as THREE from "three"
 
     const Scene = () => {
-        let tex = useTexture("./image.png")
+        let tex = useTexture("image.png")
         let cyl = useRef(null)
         const rotationSpeed = 0.2;
         useFrame ((state,delta) => {
